@@ -231,7 +231,7 @@ boxplot(voom_data$E, las = 2, col = palette_wes, main = "Boxplot of Normalised C
         outpch = 19, outcol = "black", outcex = 0.5) 
 
 ```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_6_Boxplot.jpg?raw=true" alt="View Data Summary Screenshot" width="450">
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_6_Boxplot.jpg?raw=true" alt="View Data Summary Screenshot" width="420">
 
 ```r
  
@@ -261,7 +261,7 @@ p_alt1 <- ggplot(df_long, aes(x = Sample, y = Expression, fill = Sample)) +
 print(p_alt1)
 
 ```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_7_Boxplot-ggplot2.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_7_Boxplot-ggplot2.jpg?raw=true" alt="View Data Summary Screenshot" width="420">
 
 ```r
  
@@ -285,7 +285,7 @@ ggplot() +
     ggtitle("Mean vs. Variance (Red: Before Voom, Blue: After Voom)")
 
 ```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_8_Mean-variance-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="500">
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_8_Mean-variance-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="550">
 
 ```r
  
@@ -303,7 +303,7 @@ ggplot(df_library_sizes, aes(x = Sample, y = LibrarySize)) +
     theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_9_Library-size-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_9_Library-size-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="420">
 
 ```r
 
