@@ -809,3 +809,6 @@ save.image(file = "R_Workshop_20-5-2024.RData")
 setwd("C:/Users/Wong/Desktop/RStudio_Workshop_2024/Selected_dataset/Limma_v2")
 load("R_Workshop_20-5-2024.RData")
 source("Libraries_R_Workshop_20-5-2024.R") 
+
+# Reference
+Hart et al. Divergent transcriptomic signatures from putative mesenchymal stimuli in glioblastoma cells. Cancer Gene Therapy (2024) DOI: 10.1038/s41417-023-00724-w
