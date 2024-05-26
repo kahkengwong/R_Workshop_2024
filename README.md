@@ -218,7 +218,7 @@ pheatmap(sample_correlation, clustering_distance_rows = "euclidean",
 print(head(sample_correlation))
 
 ```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_5_Correlation-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_5_Correlation-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="450">
 
 ```r
  
@@ -231,7 +231,7 @@ boxplot(voom_data$E, las = 2, col = palette_wes, main = "Boxplot of Normalised C
         outpch = 19, outcol = "black", outcex = 0.5) 
 
 ```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_6_Boxplot.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_6_Boxplot.jpg?raw=true" alt="View Data Summary Screenshot" width="450">
 
 ```r
  
