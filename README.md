@@ -810,5 +810,12 @@ setwd("C:/Users/Wong/Desktop/RStudio_Workshop_2024/Selected_dataset/Limma_v2")
 load("R_Workshop_20-5-2024.RData")
 source("Libraries_R_Workshop_20-5-2024.R") 
 
-# Reference
-Hart et al. Divergent transcriptomic signatures from putative mesenchymal stimuli in glioblastoma cells. Cancer Gene Therapy (2024) DOI: 10.1038/s41417-023-00724-w
+# References
+Hart et al. "Divergent transcriptomic signatures from putative mesenchymal stimuli in glioblastoma cells." _Cancer Gene Therapy_ (2024) [DOI: 10.1038/s41417-023-00724-w](https://doi.org/10.1038/s41417-023-00724-w)
+
+Ritchie et al. "limma powers differential expression analyses for RNA-sequencing and microarray studies." _Nucleic Acids Research_ (2015) [DOI: 10.1093/nar/gkv007](https://doi.org/10.1093/nar/gkv007)
+
+Morgan M et al. "GSEABase: Gene set enrichment data structures and methods." R package version 1.54.0. (2020) Available at: [https://bioconductor.org/packages/release/bioc/html/GSEABase.html](https://bioconductor.org/packages/release/bioc/html/GSEABase.html)
+
+Sergushichev A. "An algorithm for fast preranked gene set enrichment analysis using cumulative statistic calculation." _bioRxiv_. (2016) [DOI: 10.1101/060012](https://doi.org/10.1101/060012)
+
