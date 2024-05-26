@@ -1,7 +1,5 @@
 # R Workshop 20-05-2024 (AP Dr Wong Kah Keng) #
 ---
-![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_View-data.jpg?raw=true)
-
 ```r
 ### R Workshop 20-05-2024 (AP Dr Wong Kah Keng) ###
 ### Step 1: Set Directory, Install and Load the Necessary Libraries ###
@@ -90,13 +88,16 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 # Check the first few rows of the dataset in R’s console
 head(data)
 
+```
 ![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_View-data.jpg?raw=true)
-
+```r
 # Basic data summary
 summary(data)
 
+```
 ![View Data Summary Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_2_Data-summary.jpg?raw=true)
 
+```r
 # Capture the summary output and export as Excel file
 summary_data <- as.data.frame(summary(data)) 
 write.xlsx(summary_data, file = "Summary_output.xlsx")
