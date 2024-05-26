@@ -93,7 +93,7 @@ head(data)
 summary(data)
 
 ```
-![View Data Summary Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_2_Data-summary.jpg?raw=true)
+![View Data Summary Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_2_Summary.jpg?raw=true)
 
 ```r
 # Capture the summary output and export as Excel file
