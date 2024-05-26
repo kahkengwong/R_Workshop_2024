@@ -87,7 +87,7 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 head(data)
 
 ```
-![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_View-data.png?raw=true)
+![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_View-data.jpg?raw=true)
 ```r
 # Basic data summary
 summary(data)
