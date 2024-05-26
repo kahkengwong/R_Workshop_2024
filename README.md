@@ -201,7 +201,7 @@ plot <- plot_ly(data = pca_data, x = ~PC1, y = ~PC2, z = ~PC3, type = 'scatter3d
 plot
 
 ```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_4_3D-PCA.jpg?raw=true" alt="View Data Summary Screenshot" width="500">
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_4_3D-PCA.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
 
 ```r
 
