@@ -1,5 +1,3 @@
-# R Workshop 20-05-2024 (AP Dr Wong Kah Keng) #
----
 ```r
 ### R Workshop 20-05-2024 (AP Dr Wong Kah Keng) ###
 ### Step 1: Set Directory, Install and Load the Necessary Libraries ###
