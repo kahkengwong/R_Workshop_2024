@@ -1,4 +1,4 @@
-![image](https://github.com/kahkengwong/R_Workshop_2024/assets/48384560/f9aca258-0904-47d1-a6a8-a709ce979d03)```r
+```r
 ### R Workshop 20-05-2024 (AP Dr Wong Kah Keng) ###
 ### Step 1: Set Directory, Install and Load the Necessary Libraries ###
 setwd("C:/Users/Wong/Desktop/RStudio_Workshop_2024/Selected_dataset/Limma_v2") # Set your directory using forward slashes (not backslashes)
