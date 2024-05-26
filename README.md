@@ -84,11 +84,7 @@ file_path <- "C:/Users/Wong/Desktop/RStudio_Workshop_2024/Selected_dataset/Limma
 data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 
 # Data view in RStudio
-
-```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_Data.jpg?raw=true" alt="View Data Summary Screenshot" width="600">
-
-```r
+# <img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_Data.jpg?raw=true" alt="View Data Summary Screenshot" width="600">
 
 # Check the first few rows of the dataset in R’s console
 head(data)
