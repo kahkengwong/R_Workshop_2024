@@ -86,7 +86,7 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 # Data view in RStudio
 
 ```
-![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_Data.jpg?raw=true)
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_Data.jpg?raw=true" alt="View Data Summary Screenshot" width="600">
 ```r
 
 # Check the first few rows of the dataset in R’s console
