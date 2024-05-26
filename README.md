@@ -1,5 +1,7 @@
 # R Workshop 20-05-2024 (AP Dr Wong Kah Keng) #
 ---
+![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_View-data.jpg?raw=true)
+
 ```r
 ### R Workshop 20-05-2024 (AP Dr Wong Kah Keng) ###
 ### Step 1: Set Directory, Install and Load the Necessary Libraries ###
