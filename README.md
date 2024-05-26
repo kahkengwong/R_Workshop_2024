@@ -84,6 +84,7 @@ file_path <- "C:/Users/Wong/Desktop/RStudio_Workshop_2024/Selected_dataset/Limma
 data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 
 # Data view in RStudio
+
 ```
 ![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_Data.jpg?raw=true)
 ```r
