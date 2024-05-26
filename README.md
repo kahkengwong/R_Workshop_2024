@@ -87,6 +87,7 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 
 ```
 <img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_Data.jpg?raw=true" alt="View Data Summary Screenshot" width="600">
+
 ```r
 
 # Check the first few rows of the dataset in R’s console
@@ -174,7 +175,8 @@ ggplot(pca_data, aes(x = PC1, y = PC2, color = condition)) +
     geom_text_repel(aes(label = rownames(pca_data)))
 
 ```
-![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_3_2D-PCA.jpg?raw=true)
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_3_2D-PCA.jpg?raw=true" alt="View Data Summary Screenshot" width="600">
+
 ```r
  
 # Section 4.2: QC Step with 3D PCA Plot (to identify and remove batch effects)
