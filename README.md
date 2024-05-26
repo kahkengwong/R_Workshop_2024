@@ -88,12 +88,12 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 # Check the first few rows of the dataset in R’s console
 head(data)
 
-![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/raw/main/Images/Image_1_View-data.jpg)
+![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_View-data.jpg?raw=true)
 
 # Basic data summary
 summary(data)
 
-![View Data Summary Screenshot](https://github.com/kahkengwong/R_Workshop_2024/raw/main/Images/Image_2_Data-summary.jpg)
+![View Data Summary Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_2_Data-summary.jpg?raw=true)
 
 # Capture the summary output and export as Excel file
 summary_data <- as.data.frame(summary(data)) 
