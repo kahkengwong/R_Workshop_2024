@@ -88,7 +88,7 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 # Check the first few rows of the dataset in R’s console
 head(data)
 
-![View Data Screenshot](kahkengwong/R_Workshop_2024/Images/Image_1_View-data.jpg)
+![View Data Screenshot]([kahkengwong/R_Workshop_2024/Images/Image_1_View-data.jpg](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_View-data.jpg))
 
 # Basic data summary
 summary(data)
