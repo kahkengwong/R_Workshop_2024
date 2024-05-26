@@ -83,19 +83,21 @@ file_path <- "C:/Users/Wong/Desktop/RStudio_Workshop_2024/Selected_dataset/Limma
 # Load the dataset
 data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 
-# Check the first few rows of the dataset in R’s console
-head(data)
-
+# Data view in RStudio
 ```
 ![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_Data.jpg?raw=true)
 ```r
+
+# Check the first few rows of the dataset in R’s console
+head(data)
+
 # Basic data summary
 summary(data)
-
 ```
 ![View Data Summary Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_2_Summary.jpg?raw=true)
 
 ```r
+
 # Capture the summary output and export as Excel file
 summary_data <- as.data.frame(summary(data)) 
 write.xlsx(summary_data, file = "Summary_output.xlsx")
