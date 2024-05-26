@@ -217,6 +217,10 @@ pheatmap(sample_correlation, clustering_distance_rows = "euclidean",
 
 print(head(sample_correlation))
 
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_5_Correlation-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+
+```r
  
 # Section 4.4: QC Step with Boxplot of Normalised Counts
 # Section 4.4.1: With `wesanderson` Package
@@ -226,6 +230,10 @@ boxplot(voom_data$E, las = 2, col = palette_wes, main = "Boxplot of Normalised C
         ylab = "Log2 counts per million", xlab = "Samples",
         outpch = 19, outcol = "black", outcex = 0.5) 
 
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_6_Boxplot.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+
+```r
  
 # Section 4.4.2: With `ggplot2` Package (alternative style)
 normalised_counts <- voom_data$E 
@@ -252,6 +260,10 @@ p_alt1 <- ggplot(df_long, aes(x = Sample, y = Expression, fill = Sample)) +
 
 print(p_alt1)
 
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_7_Boxplot-ggplot2.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+
+```r
  
 # Section 4.5: QC Step with Mean-variance Plot
 mean_counts <- rowMeans(data.filt)
@@ -272,6 +284,10 @@ ggplot() +
     theme_minimal() +
     ggtitle("Mean vs. Variance (Red: Before Voom, Blue: After Voom)")
 
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_8_Mean-variance-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="500">
+
+```r
  
 # Section 4.6: Additional QC Steps (optional)
 # Section 4.6.1: Library Size Visualisation
@@ -285,6 +301,11 @@ ggplot(df_library_sizes, aes(x = Sample, y = LibrarySize)) +
     theme_minimal() +
     labs(title = "Library Sizes Across Samples", x = "Sample", y = "Library Size") +
     theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_9_Library-size-plot.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+
+```r
 
 # Section 4.6.2: BH-adjusted p-values Visualisation
 # Extract BH-adjusted p-values
@@ -450,6 +471,11 @@ volcano_TT <- ggplot(hallmark_results_TT_vs_Untreated, aes(x = logFC, y = -log10
 
 # Display the plot
 print(volcano_TT)
+
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_10_Volcano-plot-TT-TGFb.jpg?raw=true" alt="View Data Summary Screenshot" width="500">
+
+```r
  
 # Create volcano plots for TMZ vs Untreated
 volcano_TMZ <- ggplot(hallmark_results_TMZ_vs_Untreated, aes(x = logFC, y = -log10(adj.P.Val))) +
@@ -507,6 +533,11 @@ volcano_TT_TNFa <- ggplot(hallmark_results_TT_vs_Untreated_TNFa, aes(x = logFC, 
 
 # Display the plot
 print(volcano_TT_TNFa)
+
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_11_Volcano-plot-TT-TNFa.jpg?raw=true" alt="View Data Summary Screenshot" width="500">
+
+```r
 
 # Create volcano plots for TT vs Untreated - Remove short lines that connect a gene name to its dot. The ggrepel package, specifically the geom_text_repel() function in ggplot2, includes those short lines by default to improve the clarity of the plot. 
 volcano_TT_TNFa <- ggplot(hallmark_results_TT_vs_Untreated_TNFa, aes(x = logFC, y = -log10(adj.P.Val))) +
@@ -684,6 +715,12 @@ plotGseaTable(fgsea_res_tt, tt_vs_unt_rank, "TT vs Untreated: HALLMARK_TGF_BETA_
 # Plot GSEA results for TMZ vs Untreated
 plotGseaTable(fgsea_res_tmz, tmz_vs_unt_rank, "TMZ vs Untreated: HALLMARK_TGF_BETA_SIGNALING")
 
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_12_GSEA-TT-TGFb.jpg?raw=true" alt="View Data Summary Screenshot" width="450">
+
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_13_GSEA-TMZ-TGFb.jpg?raw=true" alt="View Data Summary Screenshot" width="450">
+
+```r
 
 # Section 7.2: HALLMARK_TNFA_SIGNALING_VIA_NFKB
 # Load the hallmark gene sets
@@ -759,6 +796,11 @@ plotGseaTable_TNFa(fgsea_res_tt_TNFa, tt_vs_unt_rank_TNFa, "TT vs Untreated: HAL
 
 # Plot GSEA results for TMZ vs Untreated
 plotGseaTable_TNFa(fgsea_res_tmz_TNFa, tmz_vs_unt_rank_TNFa, "TMZ vs Untreated: HALLMARK_TNFA_SIGNALING_VIA_NFKB")
+
+```
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_14_GSEA-TT-TNFa.jpg?raw=true" alt="View Data Summary Screenshot" width="450">
+
+```r
 
 # Save the R Session 
 save.image(file = "R_Workshop_20-5-2024.RData")
