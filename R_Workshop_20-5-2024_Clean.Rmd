@@ -84,8 +84,15 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 
 # Check the first few rows of the dataset in R’s console
 head(data)
+
+# View Data Screenshot: ![View Data Screenshot](Images/Image_1_View-data.jpg)
+
+
 # Basic data summary
 summary(data)
+
+# View Data Screenshot: ![View Data Screenshot](Images/Image_2_Data-summary.jpg)
+
 
 # Capture the summary output and export as Excel file
 summary_data <- as.data.frame(summary(data)) 
