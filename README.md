@@ -1,4 +1,4 @@
-```r
+![image](https://github.com/kahkengwong/R_Workshop_2024/assets/48384560/f9aca258-0904-47d1-a6a8-a709ce979d03)```r
 ### R Workshop 20-05-2024 (AP Dr Wong Kah Keng) ###
 ### Step 1: Set Directory, Install and Load the Necessary Libraries ###
 setwd("C:/Users/Wong/Desktop/RStudio_Workshop_2024/Selected_dataset/Limma_v2") # Set your directory using forward slashes (not backslashes)
@@ -198,7 +198,13 @@ plot <- plot_ly(data = pca_data, x = ~PC1, y = ~PC2, z = ~PC3, type = 'scatter3d
                         zaxis = list(title = 'PC3')))
 plot
 
+```
+![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_4_3D-PCA.jpg?raw=true)
+```r
+
+# Save the 3D plot in HTML format
 saveWidget(plot, '3D_Plot_PCA.html', selfcontained = TRUE)
+
 
 # Section 4.3: QC Step with Samples Correlation
 sample_correlation <- cor(voom_data$E, method = "spearman")
