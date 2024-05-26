@@ -173,6 +173,9 @@ ggplot(pca_data, aes(x = PC1, y = PC2, color = condition)) +
     theme(legend.position = "right") +
     geom_text_repel(aes(label = rownames(pca_data)))
 
+```
+![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_3__2D-PCA.jpg?raw=true)
+```r
  
 # Section 4.2: QC Step with 3D PCA Plot (to identify and remove batch effects)
 transposed_data <- t(voom_data$E)
