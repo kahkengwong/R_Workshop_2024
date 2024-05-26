@@ -175,7 +175,7 @@ ggplot(pca_data, aes(x = PC1, y = PC2, color = condition)) +
     geom_text_repel(aes(label = rownames(pca_data)))
 
 ```
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_3_2D-PCA.jpg?raw=true" alt="View Data Summary Screenshot" width="600">
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_3_2D-PCA.jpg?raw=true" alt="View Data Summary Screenshot" width="500">
 
 ```r
  
@@ -201,7 +201,8 @@ plot <- plot_ly(data = pca_data, x = ~PC1, y = ~PC2, z = ~PC3, type = 'scatter3d
 plot
 
 ```
-![View Data Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_4_3D-PCA.jpg?raw=true)
+<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_4_3D-PCA.jpg?raw=true" alt="View Data Summary Screenshot" width="500">
+
 ```r
 
 # Save the 3D plot in HTML format
