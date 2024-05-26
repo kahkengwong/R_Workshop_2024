@@ -93,7 +93,7 @@ head(data)
 # Basic data summary
 summary(data)
 
-# View Data Screenshot: ![View Data Screenshot](Images/Image_2_Data-summary.jpg)
+![View Data Summary Screenshot](https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_2_Data-summary.jpg)
 
 # Capture the summary output and export as Excel file
 summary_data <- as.data.frame(summary(data)) 
