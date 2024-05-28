@@ -85,7 +85,7 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 
 # Data view in RStudio:
 <div align = 'center'>
-<img src="https://github.com/kahkengwong/R_Workshop_2024/blob/main/Images/Image_1_Data.jpg?raw=true" alt="View Data Summary Screenshot" width="600">
+<img src="https://raw.githubusercontent.com/kahkengwong/R_Workshop_2024/main/Images/Image_1_Data.jpg" alt="View Data Summary Screenshot" width="600">
 </div>
 
 # Check the first few rows of the dataset in R’s console
