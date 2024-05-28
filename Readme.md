@@ -86,7 +86,7 @@ data <- read.csv(gzfile(file_path), header = TRUE, row.names = 1)
 # Data view in RStudio:
 
 ```
-<img src="https://raw.githubusercontent.com/kahkengwong/R_Workshop_2024/main/Images/Image_1_Data.jpg?raw=true" alt="View Data Summary Screenshot" width="400">
+<img src="https://raw.githubusercontent.com/kahkengwong/R_Workshop_2024/main/Images/Image_1_Data.jpg?raw=true" alt="View Data Summary Screenshot" width="520">
 
 ```r
 
