@@ -8,7 +8,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/kahkengwong/R_Workshop_2024)
 ![Contributors](https://img.shields.io/github/contributors/kahkengwong/R_Workshop_2024)
 
-Author: Kah Keng Wong  
+Author: Assoc. Prof. Dr. Wong Kah Keng
 Affiliation: Department of Immunology, School of Medical Sciences, Universiti Sains Malaysia
 
 ---
