@@ -10,7 +10,6 @@
 
 Author: Kah Keng Wong  
 GitHub Repository: [kahkengwong/R_Workshop_2024](https://github.com/kahkengwong/R_Workshop_2024)
-![Profile views](https://komarev.com/ghpvc/?username=kahkengwong&color=green)
 
 ---
 
