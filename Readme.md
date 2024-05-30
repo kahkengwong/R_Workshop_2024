@@ -8,8 +8,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/kahkengwong/R_Workshop_2024)
 ![Contributors](https://img.shields.io/github/contributors/kahkengwong/R_Workshop_2024)
 
-Author: Kah Keng Wong  
-
 ---
 
 ```r
