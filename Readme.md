@@ -1,3 +1,19 @@
+# R_Workshop_2024 Repository
+![GitHub last commit](https://img.shields.io/github/last-commit/kahkengwong/R_Workshop_2024)
+[![GitHub issues](https://img.shields.io/github/issues/kahkengwong/R_Workshop_2024)](https://github.com/kahkengwong/R_Workshop_2024/issues)
+[![GitHub forks](https://img.shields.io/github/forks/kahkengwong/R_Workshop_2024)](https://github.com/kahkengwong/R_Workshop_2024/network)
+[![GitHub stars](https://img.shields.io/github/stars/kahkengwong/R_Workshop_2024)](https://github.com/kahkengwong/R_Workshop_2024/stargazers)
+![GitHub repo size](https://img.shields.io/github/repo-size/kahkengwong/R_Workshop_2024)
+![GitHub languages](https://img.shields.io/github/languages/count/kahkengwong/R_Workshop_2024)
+![GitHub top language](https://img.shields.io/github/languages/top/kahkengwong/R_Workshop_2024)
+![Contributors](https://img.shields.io/github/contributors/kahkengwong/R_Workshop_2024)
+
+Author: Kah Keng Wong  
+GitHub Repository: [kahkengwong/R_Workshop_2024](https://github.com/kahkengwong/R_Workshop_2024)
+![Profile views](https://komarev.com/ghpvc/?username=kahkengwong&color=green)
+
+---
+
 ```r
 ### R Workshop 20-05-2024 (AP Dr Wong Kah Keng) ###
 ### Step 1: Set Directory, Install and Load the Necessary Libraries ###
