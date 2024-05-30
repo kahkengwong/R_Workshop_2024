@@ -9,7 +9,6 @@
 ![Contributors](https://img.shields.io/github/contributors/kahkengwong/R_Workshop_2024)
 
 Author: Kah Keng Wong  
-GitHub Repository: [kahkengwong/R_Workshop_2024](https://github.com/kahkengwong/R_Workshop_2024)
 
 ---
 
