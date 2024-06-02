@@ -2,7 +2,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/kahkengwong/R_Workshop_2024)
 [![GitHub issues](https://img.shields.io/github/issues/kahkengwong/R_Workshop_2024)](https://github.com/kahkengwong/R_Workshop_2024/issues)
 [![GitHub forks](https://img.shields.io/github/forks/kahkengwong/R_Workshop_2024)](https://github.com/kahkengwong/R_Workshop_2024/network)
-[![GitHub stars](https://img.shields.io/github/stars/kahkengwong/R_Workshop_2024)](https://github.com/kahkengwong/R_Workshop_2024/stargazers)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kahkengwong/R_Workshop_2024)
 ![GitHub languages](https://img.shields.io/github/languages/count/kahkengwong/R_Workshop_2024)
 ![GitHub top language](https://img.shields.io/github/languages/top/kahkengwong/R_Workshop_2024)
